@@ -5,8 +5,8 @@ var last_position_of_x,last_position_of_y;
 var color="black";
 var width_of_line=1;
 var widthofscreen=screen.width;
-var new_width=widthofscreen-85;
-var new_height=screen.height-150;
+var new_width=widthofscreen-20;
+var new_height=screen.height-50;
 if (widthofscreen < 992) {
     canvas.width=new_width;
     canvas.height=new_height;
